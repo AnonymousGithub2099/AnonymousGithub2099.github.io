@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery with Titles and Captions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+        h1 {
+            margin: 20px 0;
+            font-size: 2em;
+            justify-content: center;
+            color: #333;
+        }
+        .image-container {
+            display: flex;
+            gap: 30px;
+            max-width: 1000px;
+        }
+        .column {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px; /* Space between rows */
+        }
+        .column-text {
+            font-weight: bold;
+        }
+        .image-container img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+        }
+        .text-column {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 30px; /* Space between rows */
+        }
+        .text-box {
+            display: flex;
+            justify-content: left;
+            align-items: left;
+            border: none;
+            width: 150px;
+            height: 120px;
+            text-align: left;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cartoon Image Animation</h1>
+    <h2>Tom and Jerry</h2>
+    <div class="image-container">
+        <div class="column">
+            <div class="column-text">Images</div>
+            <img src="images/tom-and-jerry/jumping/images/0.jpg" alt="Image jumping 0">
+            <img src="images/tom-and-jerry/jumping/images/1.jpg" alt="Image jumping 1">
+            <img src="images/tom-and-jerry/jumping/images/2.jpg" alt="Image jumping 2">
+            <img src="images/tom-and-jerry/jumping/images/3.jpg" alt="Image jumping 3">
+            <br>
+            <img src="images/tom-and-jerry/hitting/images/0.jpg" alt="Image hitting 0">
+            <img src="images/tom-and-jerry/hitting/images/1.jpg" alt="Image hitting 1">
+            <img src="images/tom-and-jerry/hitting/images/2.jpg" alt="Image hitting 2">
+            <img src="images/tom-and-jerry/hitting/images/3.jpg" alt="Image hitting 3">
+            <br>
+            <img src="images/tom-and-jerry/lying/images/0.jpg" alt="Image lying 0">
+            <img src="images/tom-and-jerry/lying/images/1.jpg" alt="Image lying 1">
+            <img src="images/tom-and-jerry/lying/images/2.jpg" alt="Image lying 2">
+            <img src="images/tom-and-jerry/lying/images/3.jpg" alt="Image lying 3">
+            <br>
+            <img src="images/tom-and-jerry/running/images/0.jpg" alt="Image running 0">
+            <img src="images/tom-and-jerry/running/images/1.jpg" alt="Image running 1">
+            <img src="images/tom-and-jerry/running/images/2.jpg" alt="Image running 2">
+            <img src="images/tom-and-jerry/running/images/3.jpg" alt="Image running 3">
+        </div>
+        <div class="text-column">
+            <div class="column-text">Text Prompts</div>
+            <div class="text-box">Jerry, who is leaning against the wooden door, jumps up in surprise.</div>
+            <div class="text-box">Spike jumped up in surprise.</div>
+            <div class="text-box">Lying on the red sofa next to the brown cabinet, Tom suddenly jumps up, screaming in pain.</div>
+            <div class="text-box">Standing on the piano keyboard, Jerry jumps up.</div>
+            <br>
+            <div class="text-box">Jerry stands in a bathtub, holding a toothbruth, hitting Tom in a mirror.</div>
+            <div class="text-box">Tom is sleeping. Jerry, standing on Tom's arm, hits Tom's nose harshly.</div>
+            <div class="text-box">On the blue carpet, Tom lies on a yellow pillow, and Jerry, standing behind Tom in a blue shirt, hits Tom's tail hard.</div>
+            <div class="text-box">Tom, lying on a purple pillow, raises a yellow baseball bat and hits Jerry in front of him.</div>
+            <br>
+            <div class="text-box">Jerry, sitting on the bed, lies down.</div>
+            <div class="text-box">Tom, sitting on the railroad tracks, lies down with his hands holding his head.</div>
+            <div class="text-box">Tom, resting his chin on his hand while reading, lies down on the book.</div>
+            <div class="text-box">Jerry, who is sitting on the bed, lies down on the pillow.</div>
+            <br>
+            <div class="text-box">Jerry lowers his head and quickly runs forward.</div>
+            <div class="text-box">Jerry is chased by an airplane from behind, running forward with all his might.</div>
+            <div class="text-box">On the yellow ground in front of the white door, Jerry runs quickly.</div>
+            <div class="text-box">Next to the green grass, on the yellow pavement, Tom runs forward.</div>
+        </div>
+        <div class="column">
+            <div class="column-text">CIMA</div>
+            <img src="images/tom-and-jerry/jumping/CIMA/0.gif" alt="Video jumping CIMA 0">
+            <img src="images/tom-and-jerry/jumping/CIMA/1.gif" alt="Video jumping CIMA 1">
+            <img src="images/tom-and-jerry/jumping/CIMA/2.gif" alt="Video jumping CIMA 2">
+            <img src="images/tom-and-jerry/jumping/CIMA/3.gif" alt="Video jumping CIMA 3">
+            <br>
+            <img src="images/tom-and-jerry/hitting/CIMA/0.gif" alt="Video hitting CIMA 0">
+            <img src="images/tom-and-jerry/hitting/CIMA/1.gif" alt="Video hitting CIMA 1">
+            <img src="images/tom-and-jerry/hitting/CIMA/2.gif" alt="Video hitting CIMA 2">
+            <img src="images/tom-and-jerry/hitting/CIMA/3.gif" alt="Video hitting CIMA 3">
+            <br>
+            <img src="images/tom-and-jerry/lying/CIMA/0.gif" alt="Video lying CIMA 0">
+            <img src="images/tom-and-jerry/lying/CIMA/1.gif" alt="Video lying CIMA 1">
+            <img src="images/tom-and-jerry/lying/CIMA/2.gif" alt="Video lying CIMA 2">
+            <img src="images/tom-and-jerry/lying/CIMA/3.gif" alt="Video lying CIMA 3">
+            <br>
+            <img src="images/tom-and-jerry/running/CIMA/0.gif" alt="Video running CIMA 0">
+            <img src="images/tom-and-jerry/running/CIMA/1.gif" alt="Video running CIMA 1">
+            <img src="images/tom-and-jerry/running/CIMA/2.gif" alt="Video running CIMA 2">
+            <img src="images/tom-and-jerry/running/CIMA/3.gif" alt="Video running CIMA 3">
+        </div>
+        <div class="column">
+            <div class="column-text">SparseCtrl</div>
+            <img src="images/tom-and-jerry/jumping/SparseCtrl/0.gif" alt="Video jumping SparseCtrl 0">
+            <img src="images/tom-and-jerry/jumping/SparseCtrl/1.gif" alt="Video jumping SparseCtrl 1">
+            <img src="images/tom-and-jerry/jumping/SparseCtrl/2.gif" alt="Video jumping SparseCtrl 2">
+            <img src="images/tom-and-jerry/jumping/SparseCtrl/3.gif" alt="Video jumping SparseCtrl 3">
+            <br>
+            <img src="images/tom-and-jerry/hitting/SparseCtrl/0.gif" alt="Video hitting SparseCtrl 0">
+            <img src="images/tom-and-jerry/hitting/SparseCtrl/1.gif" alt="Video hitting SparseCtrl 1">
+            <img src="images/tom-and-jerry/hitting/SparseCtrl/2.gif" alt="Video hitting SparseCtrl 2">
+            <img src="images/tom-and-jerry/hitting/SparseCtrl/3.gif" alt="Video hitting SparseCtrl 3">
+            <br>
+            <img src="images/tom-and-jerry/lying/SparseCtrl/0.gif" alt="Video lying SparseCtrl 0">
+            <img src="images/tom-and-jerry/lying/SparseCtrl/1.gif" alt="Video lying SparseCtrl 1">
+            <img src="images/tom-and-jerry/lying/SparseCtrl/2.gif" alt="Video lying SparseCtrl 2">
+            <img src="images/tom-and-jerry/lying/SparseCtrl/3.gif" alt="Video lying SparseCtrl 3">
+            <br>
+            <img src="images/tom-and-jerry/running/SparseCtrl/0.gif" alt="Video running SparseCtrl 0">
+            <img src="images/tom-and-jerry/running/SparseCtrl/1.gif" alt="Video running SparseCtrl 1">
+            <img src="images/tom-and-jerry/running/SparseCtrl/2.gif" alt="Video running SparseCtrl 2">
+            <img src="images/tom-and-jerry/running/SparseCtrl/3.gif" alt="Video running SparseCtrl 3">
+        </div>
+        <div class="column">
+            <div class="column-text">LAMP</div>
+            <img src="images/tom-and-jerry/jumping/LAMP/0.gif" alt="Video jumping LAMP 0">
+            <img src="images/tom-and-jerry/jumping/LAMP/1.gif" alt="Video jumping LAMP 1">
+            <img src="images/tom-and-jerry/jumping/LAMP/2.gif" alt="Video jumping LAMP 2">
+            <img src="images/tom-and-jerry/jumping/LAMP/3.gif" alt="Video jumping LAMP 3">
+            <br>
+            <img src="images/tom-and-jerry/hitting/LAMP/0.gif" alt="Video hitting LAMP 0">
+            <img src="images/tom-and-jerry/hitting/LAMP/1.gif" alt="Video hitting LAMP 1">
+            <img src="images/tom-and-jerry/hitting/LAMP/2.gif" alt="Video hitting LAMP 2">
+            <img src="images/tom-and-jerry/hitting/LAMP/3.gif" alt="Video hitting LAMP 3">
+            <br>
+            <img src="images/tom-and-jerry/lying/LAMP/0.gif" alt="Video lying LAMP 0">
+            <img src="images/tom-and-jerry/lying/LAMP/1.gif" alt="Video lying LAMP 1">
+            <img src="images/tom-and-jerry/lying/LAMP/2.gif" alt="Video lying LAMP 2">
+            <img src="images/tom-and-jerry/lying/LAMP/3.gif" alt="Video lying LAMP 3">
+            <br>
+            <img src="images/tom-and-jerry/running/LAMP/0.gif" alt="Video running LAMP 0">
+            <img src="images/tom-and-jerry/running/LAMP/1.gif" alt="Video running LAMP 1">
+            <img src="images/tom-and-jerry/running/LAMP/2.gif" alt="Video running LAMP 2">
+            <img src="images/tom-and-jerry/running/LAMP/3.gif" alt="Video running LAMP 3">
+        </div>
+        <div class="column">
+            <div class="column-text">PIA</div>
+            <img src="images/tom-and-jerry/jumping/PIA/0.gif" alt="Video jumping PIA 0">
+            <img src="images/tom-and-jerry/jumping/PIA/1.gif" alt="Video jumping PIA 1">
+            <img src="images/tom-and-jerry/jumping/PIA/2.gif" alt="Video jumping PIA 2">
+            <img src="images/tom-and-jerry/jumping/PIA/3.gif" alt="Video jumping PIA 3">
+            <br>
+            <img src="images/tom-and-jerry/hitting/PIA/0.gif" alt="Video hitting PIA 0">
+            <img src="images/tom-and-jerry/hitting/PIA/1.gif" alt="Video hitting PIA 1">
+            <img src="images/tom-and-jerry/hitting/PIA/2.gif" alt="Video hitting PIA 2">
+            <img src="images/tom-and-jerry/hitting/PIA/3.gif" alt="Video hitting PIA 3">
+            <br>
+            <img src="images/tom-and-jerry/lying/PIA/0.gif" alt="Video lying PIA 0">
+            <img src="images/tom-and-jerry/lying/PIA/1.gif" alt="Video lying PIA 1">
+            <img src="images/tom-and-jerry/lying/PIA/2.gif" alt="Video lying PIA 2">
+            <img src="images/tom-and-jerry/lying/PIA/3.gif" alt="Video lying PIA 3">
+            <br>
+            <img src="images/tom-and-jerry/running/PIA/0.gif" alt="Video running PIA 0">
+            <img src="images/tom-and-jerry/running/PIA/1.gif" alt="Video running PIA 1">
+            <img src="images/tom-and-jerry/running/PIA/2.gif" alt="Video running PIA 2">
+            <img src="images/tom-and-jerry/running/PIA/3.gif" alt="Video running PIA 3">
+        </div>
+    </div>
+    <br><br>
+    <h2>The Pink Panther</h2>
+    <div class="image-container">
+        <div class="column">
+            <div class="column-text">Images</div>
+            <img src="images/the-pink-panther/walking/images/0.jpg" alt="Image walking 0">
+            <img src="images/the-pink-panther/walking/images/1.jpg" alt="Image walking 1">
+            <img src="images/the-pink-panther/walking/images/2.jpg" alt="Image walking 2">
+            <img src="images/the-pink-panther/walking/images/3.jpg" alt="Image walking 3">
+            <br>
+            <img src="images/the-pink-panther/gliding/images/0.jpg" alt="Image gliding 0">
+            <img src="images/the-pink-panther/gliding/images/1.jpg" alt="Image gliding 1">
+            <img src="images/the-pink-panther/gliding/images/2.jpg" alt="Image gliding 2">
+            <img src="images/the-pink-panther/gliding/images/3.jpg" alt="Image gliding 3">
+            <br>
+            <img src="images/the-pink-panther/turning/images/0.jpg" alt="Image turning 0">
+            <img src="images/the-pink-panther/turning/images/1.jpg" alt="Image turning 1">
+            <img src="images/the-pink-panther/turning/images/2.jpg" alt="Image turning 2">
+            <img src="images/the-pink-panther/turning/images/3.jpg" alt="Image turning 3">
+            <br>
+            <img src="images/the-pink-panther/waving/images/0.jpg" alt="Image waving 0">
+            <img src="images/the-pink-panther/waving/images/1.jpg" alt="Image waving 1">
+            <img src="images/the-pink-panther/waving/images/2.jpg" alt="Image waving 2">
+            <img src="images/the-pink-panther/waving/images/3.jpg" alt="Image waving 3">
+        </div>
+        <div class="text-column">
+            <div class="column-text">Text Prompts</div>
+            <div class="text-box">Next to the dark blue wall, Pink Panther is walking forward.</div>
+            <div class="text-box">On the gray street in front of the red wall, the Pink Panther walks forward.</div>
+            <div class="text-box">On the gray street in front of the light green house, Pink Panther walks forward.</div>
+            <div class="text-box">In the forest, Pink Panther walks with an axe over his shoulder.</div>
+            <br>
+            <div class="text-box">Pink Panther, dressed in red clothes and a purple scarf, glides on a yellow snowboard with ski poles in hand.</div>
+            <div class="text-box">PinK Panther glides on pink tiles, wearing roller skates and tan clothes, holding a bone.</div>
+            <div class="text-box">Against a green backdrop, Pink Panther glides forward on a red skateboard, wearing a baseball cap and holding a baseball.</div>
+            <div class="text-box">Under the blue night sky, beside the green fields, on the gray street, Pink Panther glides forward while sitting on a small scooter.</div>
+            <br>
+            <div class="text-box">Pink Panther, crossing his arms in front of his chest, turns his head.</div>
+            <div class="text-box">Pink Panther stands on the pink street, holding a yellow pentagon star in his hand, and turns his body.</div>
+            <div class="text-box">Pink Panther, seated on the beige deck of the ship, turns his head.</div>
+            <div class="text-box">Wearing a chef's hat and standing in front of the stove, Pink Panther turns his head to the side.</div>
+            <br>
+            <div class="text-box">On the road beside the white fence, Pink Panther waves his hand in the distance.</div>
+            <div class="text-box">Pink Panther is waving to the distance.</div>
+            <div class="text-box">Wearing a chef's hat and standing by the stove, Pink Panther waves toward the distance.</div>
+            <div class="text-box">Pink Panther, poking its head out from behind the red wall, waved forward.</div>
+        </div>
+        <div class="column">
+            <div class="column-text">CIMA</div>
+            <img src="images/the-pink-panther/walking/CIMA/0.gif" alt="Video walking CIMA 0">
+            <img src="images/the-pink-panther/walking/CIMA/1.gif" alt="Video walking CIMA 1">
+            <img src="images/the-pink-panther/walking/CIMA/2.gif" alt="Video walking CIMA 2">
+            <img src="images/the-pink-panther/walking/CIMA/3.gif" alt="Video walking CIMA 3">
+            <br>
+            <img src="images/the-pink-panther/gliding/CIMA/0.gif" alt="Video gliding CIMA 0">
+            <img src="images/the-pink-panther/gliding/CIMA/1.gif" alt="Video gliding CIMA 1">
+            <img src="images/the-pink-panther/gliding/CIMA/2.gif" alt="Video gliding CIMA 2">
+            <img src="images/the-pink-panther/gliding/CIMA/3.gif" alt="Video gliding CIMA 3">
+            <br>
+            <img src="images/the-pink-panther/turning/CIMA/0.gif" alt="Video turning CIMA 0">
+            <img src="images/the-pink-panther/turning/CIMA/1.gif" alt="Video turning CIMA 1">
+            <img src="images/the-pink-panther/turning/CIMA/2.gif" alt="Video turning CIMA 2">
+            <img src="images/the-pink-panther/turning/CIMA/3.gif" alt="Video turning CIMA 3">
+            <br>
+            <img src="images/the-pink-panther/waving/CIMA/0.gif" alt="Video waving CIMA 0">
+            <img src="images/the-pink-panther/waving/CIMA/1.gif" alt="Video waving CIMA 1">
+            <img src="images/the-pink-panther/waving/CIMA/2.gif" alt="Video waving CIMA 2">
+            <img src="images/the-pink-panther/waving/CIMA/3.gif" alt="Video waving CIMA 3">
+        </div>
+        <div class="column">
+            <div class="column-text">SparseCtrl</div>
+            <img src="images/the-pink-panther/walking/SparseCtrl/0.gif" alt="Video walking SparseCtrl 0">
+            <img src="images/the-pink-panther/walking/SparseCtrl/1.gif" alt="Video walking SparseCtrl 1">
+            <img src="images/the-pink-panther/walking/SparseCtrl/2.gif" alt="Video walking SparseCtrl 2">
+            <img src="images/the-pink-panther/walking/SparseCtrl/3.gif" alt="Video walking SparseCtrl 3">
+            <br>
+            <img src="images/the-pink-panther/gliding/SparseCtrl/0.gif" alt="Video gliding SparseCtrl 0">
+            <img src="images/the-pink-panther/gliding/SparseCtrl/1.gif" alt="Video gliding SparseCtrl 1">
+            <img src="images/the-pink-panther/gliding/SparseCtrl/2.gif" alt="Video gliding SparseCtrl 2">
+            <img src="images/the-pink-panther/gliding/SparseCtrl/3.gif" alt="Video gliding SparseCtrl 3">
+            <br>
+            <img src="images/the-pink-panther/turning/SparseCtrl/0.gif" alt="Video turning SparseCtrl 0">
+            <img src="images/the-pink-panther/turning/SparseCtrl/1.gif" alt="Video turning SparseCtrl 1">
+            <img src="images/the-pink-panther/turning/SparseCtrl/2.gif" alt="Video turning SparseCtrl 2">
+            <img src="images/the-pink-panther/turning/SparseCtrl/3.gif" alt="Video turning SparseCtrl 3">
+            <br>
+            <img src="images/the-pink-panther/waving/SparseCtrl/0.gif" alt="Video waving SparseCtrl 0">
+            <img src="images/the-pink-panther/waving/SparseCtrl/1.gif" alt="Video waving SparseCtrl 1">
+            <img src="images/the-pink-panther/waving/SparseCtrl/2.gif" alt="Video waving SparseCtrl 2">
+            <img src="images/the-pink-panther/waving/SparseCtrl/3.gif" alt="Video waving SparseCtrl 3">
+        </div>
+        <div class="column">
+            <div class="column-text">LAMP</div>
+            <img src="images/the-pink-panther/walking/LAMP/0.gif" alt="Video walking LAMP 0">
+            <img src="images/the-pink-panther/walking/LAMP/1.gif" alt="Video walking LAMP 1">
+            <img src="images/the-pink-panther/walking/LAMP/2.gif" alt="Video walking LAMP 2">
+            <img src="images/the-pink-panther/walking/LAMP/3.gif" alt="Video walking LAMP 3">
+            <br>
+            <img src="images/the-pink-panther/gliding/LAMP/0.gif" alt="Video gliding LAMP 0">
+            <img src="images/the-pink-panther/gliding/LAMP/1.gif" alt="Video gliding LAMP 1">
+            <img src="images/the-pink-panther/gliding/LAMP/2.gif" alt="Video gliding LAMP 2">
+            <img src="images/the-pink-panther/gliding/LAMP/3.gif" alt="Video gliding LAMP 3">
+            <br>
+            <img src="images/the-pink-panther/turning/LAMP/0.gif" alt="Video turning LAMP 0">
+            <img src="images/the-pink-panther/turning/LAMP/1.gif" alt="Video turning LAMP 1">
+            <img src="images/the-pink-panther/turning/LAMP/2.gif" alt="Video turning LAMP 2">
+            <img src="images/the-pink-panther/turning/LAMP/3.gif" alt="Video turning LAMP 3">
+            <br>
+            <img src="images/the-pink-panther/waving/LAMP/0.gif" alt="Video waving LAMP 0">
+            <img src="images/the-pink-panther/waving/LAMP/1.gif" alt="Video waving LAMP 1">
+            <img src="images/the-pink-panther/waving/LAMP/2.gif" alt="Video waving LAMP 2">
+            <img src="images/the-pink-panther/waving/LAMP/3.gif" alt="Video waving LAMP 3">
+        </div>
+        <div class="column">
+            <div class="column-text">PIA</div>
+            <img src="images/the-pink-panther/walking/PIA/0.gif" alt="Video walking PIA 0">
+            <img src="images/the-pink-panther/walking/PIA/1.gif" alt="Video walking PIA 1">
+            <img src="images/the-pink-panther/walking/PIA/2.gif" alt="Video walking PIA 2">
+            <img src="images/the-pink-panther/walking/PIA/3.gif" alt="Video walking PIA 3">
+            <br>
+            <img src="images/the-pink-panther/gliding/PIA/0.gif" alt="Video gliding PIA 0">
+            <img src="images/the-pink-panther/gliding/PIA/1.gif" alt="Video gliding PIA 1">
+            <img src="images/the-pink-panther/gliding/PIA/2.gif" alt="Video gliding PIA 2">
+            <img src="images/the-pink-panther/gliding/PIA/3.gif" alt="Video gliding PIA 3">
+            <br>
+            <img src="images/the-pink-panther/turning/PIA/0.gif" alt="Video turning PIA 0">
+            <img src="images/the-pink-panther/turning/PIA/1.gif" alt="Video turning PIA 1">
+            <img src="images/the-pink-panther/turning/PIA/2.gif" alt="Video turning PIA 2">
+            <img src="images/the-pink-panther/turning/PIA/3.gif" alt="Video turning PIA 3">
+            <br>
+            <img src="images/the-pink-panther/waving/PIA/0.gif" alt="Video waving PIA 0">
+            <img src="images/the-pink-panther/waving/PIA/1.gif" alt="Video waving PIA 1">
+            <img src="images/the-pink-panther/waving/PIA/2.gif" alt="Video waving PIA 2">
+            <img src="images/the-pink-panther/waving/PIA/3.gif" alt="Video waving PIA 3">
+        </div>
+    </div>
+</body>
+<br>
+</html>
+
+
